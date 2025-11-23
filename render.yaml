@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: waha-cozil
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: WAHA_VERSION
+        value: latest
+      - key: WAHA_LOG_LEVEL
+        value: info
+      - key: WAHA_WEBHOOK_URL
+        value: 
+      - key: WAHA_WEBHOOK_EVENTS
+        value: message
+
