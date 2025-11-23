@@ -20,4 +20,8 @@ services:
         value: "false"
       - key: ENABLE_AUTH
         value: "false"
+      - key: AUTH_DISABLED
+        value: "true"
+      - key: DISABLE_AUTH
+        value: "true"
 
