@@ -14,10 +14,10 @@ services:
         value: 
       - key: WAHA_WEBHOOK_EVENTS
         value: message
-      - key: WAHA_AUTH_USERNAME
-        value: admin
-      - key: WAHA_AUTH_PASSWORD
-        value: admin123
+      - key: AUTH_ENABLED
+        value: "false"
       - key: WAHA_AUTH_ENABLED
-        value: "true"
+        value: "false"
+      - key: ENABLE_AUTH
+        value: "false"
 
